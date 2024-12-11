@@ -1,0 +1,1 @@
+This error occurs when using the `useEffect` hook in React Native with a callback function that attempts to modify a state variable outside of the `setState` function. This often happens when you're working with asynchronous operations or timers, and you're not properly handling the state updates within the `useEffect` cleanup function.
